@@ -1,0 +1,95 @@
+/* 颜色 */
+:root {
+    --ekisin-theme-op: #4259ef23;
+    --ekisin-gray-op: #9999992b;
+    --ekisin-theme-top: var(--ekisin-theme);
+    --ekisin-white: #fff;
+    --ekisin-white-op: rgba(255, 255, 255, 0.2);
+    --ekisin-black: #000;
+    --ekisin-black-op: rgba(0, 0, 0, 0.2);
+    --ekisin-none: rgba(0, 0, 0, 0);
+    --ekisin-gray: #999999;
+    --ekisin-yellow: #ffc93e;
+    --ekisin-border-radius: 8px;
+    --ekisin-main: var(--ekisin-theme);
+    --ekisin-main-op: var(--ekisin-theme-op);
+    --ekisin-shadow-theme: 0 8px 12px -3px var(--ekisin-theme-op);
+    --ekisin-shadow-main: 0 8px 12px -3px var(--ekisin-main-op);
+    --ekisin-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --ekisin-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --ekisin-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --ekisin-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --ekisin-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --ekisin-shadow-green: 0 8px 12px -3px #87ee7936;
+    --ekisin-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --ekisin-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+    --ekisin-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--ekisin-card-border);
+    --ekisin-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--ekisin-main);
+    --style-border-dashed: 1px dashed var(--ekisin-theme-op);
+    --style-border-avatar: 4px solid var(--ekisin-background);
+    --style-border-always: 1px solid var(--ekisin-card-border);
+    --ekisin-white-acrylic1: #fefeff !important;
+    --ekisin-white-acrylic2: #fcfdff !important;
+    --ekisin-black-acrylic2: #08080a !important;
+    --ekisin-black-acrylic1: #0b0b0e !important;
+    --ekisin-main-none: #b8b8b800 !important;
+  }
+  
+  [data-theme="light"] {
+    --ekisin-theme: #3b70fc;
+    --ekisin-theme-op: #4259ef23;
+    --ekisin-blue: #3b70fc;
+    --ekisin-red: #d8213c;
+    --ekisin-pink: #ff7c7c;
+    --ekisin-green: #57bd6a;
+    --ekisin-fontcolor: #363636;
+    --ekisin-background: #f7f9fe;
+    --ekisin-reverse: #000;
+    --ekisin-maskbg: rgba(255, 255, 255, 0.6);
+    --ekisin-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --ekisin-hovertext: var(--ekisin-theme);
+    --ekisin-ahoverbg: #f7f7fa;
+    --ekisin-lighttext: var(--ekisin-main);
+    --ekisin-secondtext: rgba(60, 60, 67, 0.6);
+    --ekisin-scrollbar: rgba(60, 60, 67, 0.4);
+    --ekisin-card-btn-bg: #edf0f7;
+    --ekisin-post-blockquote-bg: #fafcff;
+    --ekisin-post-tabs-bg: #f2f5f8;
+    --ekisin-secondbg: #edf0f7;
+    --ekisin-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --ekisin-card-bg: #fff;
+    --ekisin-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --ekisin-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --ekisin-card-border: #c0c6d8;
+  }
+  
+  [data-theme="dark"] {
+    --global-bg: #191919;
+    --ekisin-theme: #0084ff;
+    --ekisin-theme-op: #0084ff23;
+    --ekisin-blue: #0084ff;
+    --ekisin-red: #ff3842;
+    --ekisin-pink: #ff7c7c;
+    --ekisin-green: #57bd6a;
+    --ekisin-fontcolor: #f7f7fa;
+    --ekisin-background: #18171d;
+    --ekisin-reverse: #fff;
+    --ekisin-maskbg: rgba(0, 0, 0, 0.6);
+    --ekisin-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --ekisin-hovertext: #0a84ff;
+    --ekisin-ahoverbg: #fff;
+    --ekisin-lighttext: #f2b94b;
+    --ekisin-secondtext: #a1a2b8;
+    --ekisin-scrollbar: rgba(200, 200, 223, 0.4);
+    --ekisin-card-btn-bg: #30343f;
+    --ekisin-post-blockquote-bg: #000;
+    --ekisin-post-tabs-bg: #121212;
+    --ekisin-secondbg: #30343f;
+    --ekisin-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --ekisin-card-bg: #1d1b26;
+    --ekisin-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --ekisin-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --ekisin-card-border: #42444a;
+  }
